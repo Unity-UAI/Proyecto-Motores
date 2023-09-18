@@ -9,7 +9,7 @@ using JetBrains.Annotations;
 
 public class BallControl : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is called before the *** poner algo aca *** first frame update
 
 
     [SerializeField] LayerMask m_LayerMask;
@@ -35,7 +35,8 @@ public class BallControl : MonoBehaviour
         totalItems = GameObject.FindGameObjectsWithTag("Item").Length;
         UpdateScore();
 
-        // hago algo
+       
+        // Voy a cambiar en el codigo
     }
 
     private void Update()
